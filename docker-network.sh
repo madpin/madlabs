@@ -1,0 +1,1 @@
+docker network create --driver=bridge --subnet=10.86.86.0/24 madlabsnet
