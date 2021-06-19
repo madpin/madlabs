@@ -49,11 +49,11 @@ def return_valid_words(l, words_list):
         return
 
     executions = []
-    with ThreadPoolExecutor(max_workers=5) as executor:
-        for x in range(lines):
-            for y in range(col):
-                print(x, y)
-                # executor.submit(word_from_0, x, y)
-                word_from_0(x, y)
+    # with ThreadPoolExecutor(max_workers=5) as executor:
+    for x in range(lines):
+        for y in range(col):
+            print(x, y)
+            # executor.submit(word_from_0, x, y)
+            word_from_0(x, y)
 
     return valid_words

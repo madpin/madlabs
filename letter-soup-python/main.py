@@ -51,7 +51,7 @@ def run_viewsync_prod():
 def run_viewsync_prod():
 
     start = time.time()
-    valid = v3(letter_map3, words_list)
+    valid = v3(letter_map4, words_list)
     print(valid)
     end = time.time()
     print(end - start)

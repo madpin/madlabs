@@ -46,7 +46,7 @@ def return_valid_words(l, words_list):
         return
 
     executions = []
-    with ThreadPoolExecutor(max_workers=4) as executor:
+    with ThreadPoolExecutor(max_workers=16) as executor:
         for x in range(lines):
             for y in range(col):
                 print(x, y)
